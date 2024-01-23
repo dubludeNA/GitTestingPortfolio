@@ -1,5 +1,5 @@
 Name: Daniel Iordache  
-[Linkedin profile]: (https://www.linkedin.com/in/daniel-iordache-638609104/)  
+[[Linkedin profile]([url](https://www.linkedin.com/in/daniel-iordache-638609104/))]
   
 This project is intended for educational purposes. I am putting into practice the informations I learned in my 5 months workshop on Software Testing, provided by "Software Development Academy".  
 
