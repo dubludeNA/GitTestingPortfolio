@@ -1,0 +1,382 @@
+"ID","Title","Expected Result","Section","Steps","Steps","Steps (Additional Info)","Steps (Expected Result)","Steps (References)","Steps (Shared step ID)","Steps (Step)","Type"
+"C3","Input number and operands with keyboard","","Exploratory Testing","","Click anywhere outside the calculator.
+
+Input any number on the keyboard.
+Expected Result:
+The input is displayedClick on the calculator screen.
+
+Input any number on the keyboard.
+Expected Result:
+The input is displayed","1. 
+2.","1. The input is displayed
+2. The input is displayed","1. 
+2.","1. 
+2.","1. Click anywhere outside the calculator.
+
+Input any number on the keyboard.
+2. Click on the calculator screen.
+
+Input any number on the keyboard.","Other"
+"C10","Pressing an operand button multiple times","","Exploratory Testing","","Press """"&plusmn;"""" two times in the calculator.
+Expected Result:
+Just one - sign appearsPress """"%"""" two times in the calculator.
+Expected Result:
+Just one % sign appearsPress """"&divide;"""" two times in the calculator.
+Expected Result:
+Just one &divide; sign appearsPress """"X"""" two times in the calculator.
+Expected Result:
+** appears on screen, for the """"power of""""Input as the first number """"--1"""" in the calculator.
+Expected Result:
+Just one - sign appearsInput as the second number """"--1"""" in the calculator.
+Expected Result:
+x -- 1 appears on the screenPress """"+"""" two times in the calculator.
+Expected Result:
+Just one + sign appearsPress """"="""" in the calculator.
+Expected Result:
+The message """"undefined"""" appears on the screenPress """"."""" two times in the calculator.
+Expected Result:
+Just one . sign appears","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.","1. Just one - sign appears
+2. Just one % sign appears
+3. Just one &divide; sign appears
+4. ** appears on screen, for the """"power of""""
+5. Just one - sign appears
+6. x -- 1 appears on the screen
+7. Just one + sign appears
+8. The message """"undefined"""" appears on the screen
+9. Just one . sign appears","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.","1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9.","1. Press """"&plusmn;"""" two times in the calculator.
+2. Press """"%"""" two times in the calculator.
+3. Press """"&divide;"""" two times in the calculator.
+4. Press """"X"""" two times in the calculator.
+5. Input as the first number """"--1"""" in the calculator.
+6. Input as the second number """"--1"""" in the calculator.
+7. Press """"+"""" two times in the calculator.
+8. Press """"="""" in the calculator.
+9. Press """"."""" two times in the calculator.","Other"
+"C11","Input after the undefined message appears","","Exploratory Testing","","Input """"="""" in the calculator
+Expected Result:
+The message undefined appears on the screenWith undifined on the screen, press AC
+Expected Result:
+The screen is clearedPress =. With undifined on the screen press 9
+Expected Result:
+The screen in cleared and the input 9 is shown on the screen","1. 
+2. 
+3.","1. The message undefined appears on the screen
+2. The screen is cleared
+3. The screen in cleared and the input 9 is shown on the screen","1. 
+2. 
+3.","1. 
+2. 
+3.","1. Input """"="""" in the calculator
+2. With undifined on the screen, press AC
+3. Press =. With undifined on the screen press 9","Other"
+"C13","Input multiple operands one after the other","","Exploratory Testing","","Input """"10&plusmn;%5"""" in the calculator.
+Click on """"=""""
+Expected Result:
+The calculator throws and error.
+The screen is clearedInput """"10&plusmn;x5"""" in the calculator
+Click on """"=""""
+
+Expected Result:
+The calculator throws and error.
+The screen is clearedInput """"10&plusmn;=5"""" in the calculator
+Click on """"=""""
+Expected Result:
+The calculator throws and error.
+The screen is clearedInput """"10x%5"""" in the calculator
+Click on """"=""""
+Expected Result:
+The calculator throws and error.
+The screen is clearedInput """"10//5"""" in the calculator
+Click on """"=""""
+Expected Result:
+The calculator throws and error.
+The screen is clearedInput """"10**5"""" in the calculator
+Click on """"=""""
+Expected Result:
+The result is 100000","1. 
+2. 
+3. 
+4. 
+5. 
+6.","1. The calculator throws and error.
+The screen is cleared
+2. The calculator throws and error.
+The screen is cleared
+3. The calculator throws and error.
+The screen is cleared
+4. The calculator throws and error.
+The screen is cleared
+5. The calculator throws and error.
+The screen is cleared
+6. The result is 100000","1. 
+2. 
+3. 
+4. 
+5. 
+6.","1. 
+2. 
+3. 
+4. 
+5. 
+6.","1. Input """"10&plusmn;%5"""" in the calculator.
+Click on """"=""""
+2. Input """"10&plusmn;x5"""" in the calculator
+Click on """"=""""
+
+3. Input """"10&plusmn;=5"""" in the calculator
+Click on """"=""""
+4. Input """"10x%5"""" in the calculator
+Click on """"=""""
+5. Input """"10//5"""" in the calculator
+Click on """"=""""
+6. Input """"10**5"""" in the calculator
+Click on """"=""""","Other"
+"C15","Enter show page source on the page","","Exploratory Testing","","Enter show page source on the page
+Expected Result:
+The content is dynamically resized and the code inspector appears","1","1. The content is dynamically resized and the code inspector appears","1","1","1. Enter show page source on the page","Other"
+"C21","Input characters","","Exploratory Testing","","Click on the calculator screen
+Input from keyboard or copy - paste the string """"abc""""
+
+Expected Result:
+The calculator doesn't accept characters","1","1. The calculator doesn't accept characters","1","1","1. Click on the calculator screen
+Input from keyboard or copy - paste the string """"abc""""","Other"
+"C2","""""Sum"""" operand functionality","","Unit Testing","","Input the following operation """"-1950 + -10240"""". Click on """"=""""
+Expected Result:
+The result is -12190Input the following operation """"-320 + -55"""". Click on """"=""""
+Expected Result:
+The result is -375Input the following operation """"-0 + 3"""". Click on """"=""""
+Expected Result:
+0 doesn't take the """"-"""" operandInput the following operation """"110 + 3"""". Click on """"=""""
+Expected Result:
+The result is 113Input the following operation """"1230 + 35601"""". Click on """"=""""
+Expected Result:
+The result is 36831","1. 
+2. 
+3. 
+4. 
+5.","1. The result is -12190
+2. The result is -375
+3. 0 doesn't take the """"-"""" operand
+4. The result is 113
+5. The result is 36831","1. 
+2. 
+3. 
+4. 
+5.","1. 
+2. 
+3. 
+4. 
+5.","1. Input the following operation """"-1950 + -10240"""". Click on """"=""""
+2. Input the following operation """"-320 + -55"""". Click on """"=""""
+3. Input the following operation """"-0 + 3"""". Click on """"=""""
+4. Input the following operation """"110 + 3"""". Click on """"=""""
+5. Input the following operation """"1230 + 35601"""". Click on """"=""""","Other"
+"C5","""""Minus"""" operand functionality","","Unit Testing","","Input the following operation """"-1950 - -10240"""". Click on """"=""""
+
+Expected Result:
+The result is 8290Input the following operation """"-320 - -55"""". Click on """"=""""
+
+Expected Result:
+The result is -265Input the following operation """"1140 - 260"""". Click on """"=""""
+
+Expected Result:
+The result is 880Input the following operation """"1230 - 35601"""". Click on """"=""""
+
+Expected Result:
+The result is -34371","1. 
+2. 
+3. 
+4.","1. The result is 8290
+2. The result is -265
+3. The result is 880
+4. The result is -34371","1. 
+2. 
+3. 
+4.","1. 
+2. 
+3. 
+4.","1. Input the following operation """"-1950 - -10240"""". Click on """"=""""
+
+2. Input the following operation """"-320 - -55"""". Click on """"=""""
+
+3. Input the following operation """"1140 - 260"""". Click on """"=""""
+
+4. Input the following operation """"1230 - 35601"""". Click on """"=""""","Other"
+"C6","""""Times to"""" operand functionality","","Unit Testing","","Input the following operation """"-1950 * -10240"""". Click on """"=""""
+
+
+Expected Result:
+The result is 19968000Input the following operation """"-320 * -55"""". Click on """"=""""
+
+Expected Result:
+The result is 17600Input the following operation """"-0 * 3"""". Click on """"=""""
+
+Expected Result:
+The result is 0
+Input the following operation """"1230 * 35601"""". Click on """"=""""
+
+Expected Result:
+The result is 43789230","1. 
+2. 
+3. 
+4.","1. The result is 19968000
+2. The result is 17600
+3. The result is 0
+
+4. The result is 43789230","1. 
+2. 
+3. 
+4.","1. 
+2. 
+3. 
+4.","1. Input the following operation """"-1950 * -10240"""". Click on """"=""""
+
+
+2. Input the following operation """"-320 * -55"""". Click on """"=""""
+
+3. Input the following operation """"-0 * 3"""". Click on """"=""""
+
+4. Input the following operation """"1230 * 35601"""". Click on """"=""""","Other"
+"C7","""""Divide"""" operand functionality","","Unit Testing","","Input the following operation """"-1950 / -10240"""". Click on """"=""""
+
+Expected Result:
+The result is 0.1904296875Input the following operation """"-320 / -55"""". Click on """"=""""
+
+Expected Result:
+The result is 5.818181818181818Input the following operation """"-0 / 3"""". Click on """"=""""
+
+Expected Result:
+The result is 0","1. 
+2. 
+3.","1. The result is 0.1904296875
+2. The result is 5.818181818181818
+3. The result is 0","1. 
+2. 
+3.","1. 
+2. 
+3.","1. Input the following operation """"-1950 / -10240"""". Click on """"=""""
+
+2. Input the following operation """"-320 / -55"""". Click on """"=""""
+
+3. Input the following operation """"-0 / 3"""". Click on """"=""""","Other"
+"C8","""""Modulo"""" operand functionality","","Unit Testing","","Input the following operation """"-1950 % -10240"""". Click on """"=""""
+
+Expected Result:
+The result is -1950Input the following operation """"-320 % -55"""". Click on """"=""""
+
+Expected Result:
+The result is -45Input the following operation """"-0 % 3"""". Click on """"=""""
+
+Expected Result:
+The result is 0Input the following operation """"110 % 3"""". Click on """"=""""
+Expected Result:
+The result is 2Input the following operation """"1230 % 35601"""". Click on """"=""""
+
+Expected Result:
+The result is 1230","1. 
+2. 
+3. 
+4. 
+5.","1. The result is -1950
+2. The result is -45
+3. The result is 0
+4. The result is 2
+5. The result is 1230","1. 
+2. 
+3. 
+4. 
+5.","1. 
+2. 
+3. 
+4. 
+5.","1. Input the following operation """"-1950 % -10240"""". Click on """"=""""
+
+2. Input the following operation """"-320 % -55"""". Click on """"=""""
+
+3. Input the following operation """"-0 % 3"""". Click on """"=""""
+
+4. Input the following operation """"110 % 3"""". Click on """"=""""
+5. Input the following operation """"1230 % 35601"""". Click on """"=""""","Other"
+"C9","AC button functionality","","Unit Testing","","Input """"-135670"""" in the Calculator. Press AC
+Expected Result:
+Calculator screen is clearedInput """"-120"""" in the Calculator. Press AC
+Expected Result:
+Calculator screen is clearedInput """"1120"""" in the Calculator. Press AC
+Expected Result:
+Calculator screen is cleared","1. 
+2. 
+3.","1. Calculator screen is cleared
+2. Calculator screen is cleared
+3. Calculator screen is cleared","1. 
+2. 
+3.","1. 
+2. 
+3.","1. Input """"-135670"""" in the Calculator. Press AC
+2. Input """"-120"""" in the Calculator. Press AC
+3. Input """"1120"""" in the Calculator. Press AC","Other"
+"C12","Input the 0 number multiple times","","Unit Testing","","Input 00 in the calculator
+Expected Result:
+Only one 0 appears","1","1. Only one 0 appears","1","1","1. Input 00 in the calculator","Other"
+"C16","Enter a number larger than the calculator screen","The calculator screen resizes to adapt the number","Unit Testing","Input the number 123456789123456789","","","","","","","Other"
+"C17","See the operation the result is referring to","","Unit Testing","","Input """"10x2""""
+Click on """"=""""
+Expected Result:
+10x2 are shown on the upper side of the screen.
+20 is shown in the lower side of the screen.","1","1. 10x2 are shown on the upper side of the screen.
+20 is shown in the lower side of the screen.","1","1","1. Input """"10x2""""
+Click on """"=""""","Other"
+"C18","Operands precedence check","","Unit Testing","","Input """"10+5x2""""
+Click on """"=""""
+Expected Result:
+The result is 20Input """"10/5x2""""
+Click on """"=""""
+Expected Result:
+The result is 4","1. 
+2.","1. The result is 20
+2. The result is 4","1. 
+2.","1. 
+2.","1. Input """"10+5x2""""
+Click on """"=""""
+2. Input """"10/5x2""""
+Click on """"=""""","Other"
+"C19","Have a number with two period signs in it","","Unit Testing","","Enter the number 3.3.5
+Expected Result:
+The calculator doesn't allow the second """".""""","1","1. The calculator doesn't allow the second """".""""","1","1","1. Enter the number 3.3.5","Other"
+"C1","Calculator & inputs are visible","The page opens. The calculator & button inputs are visible","Visual Testing","Open the page","","","","","","","Other"
+"C14","Calculator dynamic resize","","Visual Testing","","Resize the page to 400 x 600 pixels
+Expected Result:
+Calculator is visibleResize the page to 300 x 600 pixels
+Expected Result:
+Calculator is visible","1. 
+2.","1. Calculator is visible
+2. Calculator is visible","1. 
+2.","1. 
+2.","1. Resize the page to 400 x 600 pixels
+2. Resize the page to 300 x 600 pixels","Other"
+"C20","Operands in the safari browser","","Visual Testing","","Open the page
+Expected Result:
+Operands should be displayed as in requirements","1","1. Operands should be displayed as in requirements","1","1","1. Open the page","Other"
